@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Áo Thun Basic",
+      "price": 199000,
+      "category": "Clothes",
+      "image": "/images/aothun.jpg",
+      "stock": 10,
+      "description": "Áo thun cotton basic"
+    },
+    {
+      "id": "2",
+      "title": "Giày Sneaker",
+      "price": 649000,
+      "category": "Shoes",
+      "image": "/images/sneaker.jpg",
+      "stock": 5,
+      "description": "Giày sneakers thời trang"
+    },
+    {
+      "id": "3",
+      "title": "Quần Jean",
+      "price": 399000,
+      "category": "Clothes",
+      "image": "/images/jeans.jpg",
+      "stock": 8,
+      "description": "Quần jean xanh"
+    },
+    {
+      "id": "4",
+      "title": "Mũ Lưỡi Trai",
+      "price": 99000,
+      "category": "Accessories",
+      "image": "/images/cap.jpg",
+      "stock": 15,
+      "description": "Mũ lưỡi trai unisex"
+    },
+    {
+      "id": "5",
+      "title": "Áo Khoác Hoodie",
+      "price": 599000,
+      "category": "Clothes",
+      "image": "/images/hoodie.jpg",
+      "stock": 6,
+      "description": "Hoodie ấm áp"
+    },
+    {
+      "id": "6",
+      "title": "Túi Tote",
+      "price": 149000,
+      "category": "Accessories",
+      "image": "/images/tote.jpg",
+      "stock": 20,
+      "description": "Túi tote canvas"
+    },
+    {
+      "id": "7",
+      "title": "Vớ Thể Thao",
+      "price": 39000,
+      "category": "Accessories",
+      "image": "/images/socks.jpg",
+      "stock": 50,
+      "description": "Vớ co giãn"
+    },
+    {
+      "id": "8",
+      "title": "Kính Mát",
+      "price": 249000,
+      "category": "Accessories",
+      "image": "/images/sunglasses.jpg",
+      "stock": 12,
+      "description": "Kính mát UV"
+    },
+    {
+      "id": "9",
+      "title": "Áo Sơ Mi",
+      "price": 299000,
+      "category": "Clothes",
+      "image": "/images/shirt.jpg",
+      "stock": 9,
+      "description": "Áo sơ mi công sở"
+    },
+    {
+      "id": "10",
+      "title": "Balô",
+      "price": 799000,
+      "category": "Accessories",
+      "image": "/images/backpack.jpg",
+      "stock": 7,
+      "description": "Balo laptop 15 inch"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2c89",
+      "items": [
+        {
+          "id": 1,
+          "qty": 2
+        }
+      ],
+      "total": 398000,
+      "customer": {
+        "name": "Test",
+        "email": "t@test.com"
+      },
+      "createdAt": "2025-10-02T10:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "123456"
+    }
+  ],
+   "categories": ["Clothes", "Shoes", "Accessories"]
+}
